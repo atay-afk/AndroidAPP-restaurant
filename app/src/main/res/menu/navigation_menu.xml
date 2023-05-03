@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@raw/user"
+        android:title="Profil"/>
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@raw/home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/menuComptoire"
+        android:icon="@raw/menu"
+        android:title="Comptoir"/>
+
+
+    <item
+        android:id="@+id/menuEdit"
+        android:icon="@drawable/img_3"
+        android:title="Modifier"/>
+
+    <item
+        android:id="@+id/menuTables"
+        android:icon="@raw/table"
+        android:title="Mes Tables"/>
+
+
+    <item
+        android:id="@+id/disconnect"
+        android:icon="@raw/logout"
+        android:title="Déconnexion"/>
+
+    <item android:title="Autres">
+        <menu>
+            <item
+                android:id="@+id/menuSettings"
+                android:icon="@raw/settings"
+                android:title="Parametres"/>
+            <item
+                android:id="@+id/menuSUpport"
+                android:icon="@raw/about"
+                android:title="A propos"/>
+        </menu>
+    </item>
+
+</menu>

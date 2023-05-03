@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "708897379320",
+    "firebase_url": "https://ng-blog-d0ddf-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ng-blog-d0ddf",
+    "storage_bucket": "ng-blog-d0ddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708897379320:android:d66b9bb376f6abda5abc0d",
+        "android_client_info": {
+          "package_name": "com.example.ordertaking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708897379320-m9e2355771k20chgh2cqs7lvdk7lig3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ROvdSAsQdBLlnRTEt9u2rjGkgB4Ra8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708897379320-m9e2355771k20chgh2cqs7lvdk7lig3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

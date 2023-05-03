@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:layout_margin="12dp">
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:padding="10dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/prod"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/quantity"
+            android:text="produit"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:src="@raw/delete" />
+    <TextView
+        android:id="@+id/prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prix"
+        android:textSize="20dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginLeft="50dp"
+        />
+
+</GridLayout>
+    </androidx.cardview.widget.CardView>
